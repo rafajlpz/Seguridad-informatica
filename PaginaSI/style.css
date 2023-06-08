@@ -45,12 +45,15 @@ a:hover {
 }
 
 .titulo {
-  color: white;
-  
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%);
+  color: black;
+  padding: 3rem;  
+  background-color: lightblue;
   text-align: center;
 }
 
 .titulo {
   font-size: 3rem;
+}
+i{
+  margin-left: 0.35rem;
 }
