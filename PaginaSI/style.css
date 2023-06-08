@@ -10,17 +10,19 @@ body {
 }
 
 /* Estilos para el menú desplegable */
-/* Estilos para el menú desplegable */
 .menu {
   display: inline-block;
 }
 
 .menu a {
   display: inline-block;
-
+  
   padding: 10px;
   text-decoration: none;
   color: #000;
+}
+a:hover {
+  color: rgba(85, 83, 83, 0.9);
 }
 
 .menu .dropdown-content {
@@ -43,6 +45,12 @@ body {
 }
 
 .titulo {
-  background-color: lightblue;
+  color: white;
+  
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%);
   text-align: center;
+}
+
+.titulo {
+  font-size: 3rem;
 }
